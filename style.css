@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "DNFBitBitv2" "Spoqa Han Sans";
+  font-family: "DNFBitBitv2";
   font-style: normal;
   font-weight: 400;
   src: url("//cdn.df.nexon.com/img/common/font/DNFBitBitv2.otf")
@@ -116,6 +116,10 @@ body {
 
 .audio-box{
     margin-top: 20px;
+}
+
+.chances-font{
+font-family: "Spoqa Han Sans";
 }
 
 @media screen and (max-width: 650px) {
