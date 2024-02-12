@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UP&DOWN</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/2c827c8cca.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="img-box"><img src="./bunny.png" width="500px;" /></div>
+      <div id="result-area" class="bunny-massage">
+        1~50사이 중 내가 생각한 숫자를 맞춰봐!
+      </div>
+      <div>
+        <input type="number" id="user-input" class="input-box" />
+        <button onclick="go_button_click()" id="play-Button" class="btn-hover-2 color">GO</button>
+      </div>
+      <div id="chances-area">남은 기회: 5번</div>
+      <i onclick="reset_button_click()" id="reset-Button" class="fa-solid fa-rotate-left fa-2xl icon-style" style="color: #ffffff"></i>
+      </div>
+      
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

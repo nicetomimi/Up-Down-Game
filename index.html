@@ -3,16 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>UP&DOWN</title>
     <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/2c827c8cca.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <h1>UP&DOWN 숫자 맞추기 게임</h1>
-    <div id="result-area"> 1~100까지 숫자를 맞춰보세요 </div>
-    <div id="chances-area">남은 기회: 5번</div>
-    <input type="number" id="user-input" />
-    <button id="play-Button">Go!</button>
-    <button id="reset-Button">Reset!</button>
+    <div class="container">
+      <div class="img-box"><img src="./bunny.png" width="500px;" /></div>
+      <div id="result-area" class="bunny-massage">
+        안녕! 내가 생각한 숫자를 맞춰볼래?
+      </div>
+      <a href="./game.html"><button onclick="play_button_click()" class="btn-hover color">PLAY</button></a>
+
+    </div>
+
     <script src="main.js"></script>
   </body>
 </html>
