@@ -10,11 +10,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #3b73c8;
 }
 
 .bunny-massage {
   font-family: "DNFBitBitv2";
-  font-size: 26px;
+  font-size: 24px;
+  box-sizing: border-box;
 }
 
 .input-box {
@@ -114,4 +116,18 @@ body {
 
 .audio-box{
     margin-top: 20px;
+}
+
+@media screen and (max-width: 650px) {
+ .bunny-massage {
+    box-sizing: border-box;
+    display: relative;
+    margin: auto;
+    text-align: center;
+    width: 250px;
+ }
+
+ .input-box{
+    width: 150px;
+ }
 }
