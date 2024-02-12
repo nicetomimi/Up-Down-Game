@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "DNFBitBitv2";
+  font-family: "DNFBitBitv2" "Spoqa Han Sans";
   font-style: normal;
   font-weight: 400;
   src: url("//cdn.df.nexon.com/img/common/font/DNFBitBitv2.otf")
@@ -129,5 +129,10 @@ body {
 
  .input-box{
     width: 150px;
+ }
+
+ .btn-hover-2 {
+    padding: 0;
+    font-size: 28px;
  }
 }
