@@ -11,7 +11,6 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #3b73c8;
-    height: 100vh;
 }
 
 .bunny-massage {
@@ -139,5 +138,9 @@ font-family: "Spoqa Han Sans";
  .btn-hover-2 {
     padding: 0;
     font-size: 28px;
+ }
+ 
+ body{
+  height: 100vh;
  }
 }
