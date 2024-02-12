@@ -5,6 +5,11 @@
   src: url("//cdn.df.nexon.com/img/common/font/DNFBitBitv2.otf")
     format("opentype");
 }
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
 
 body {
     display: flex;
@@ -97,17 +102,17 @@ body {
   transition: all 0.4s ease-in-out;
 }
 
+
 .container {
+  position:absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   background-color :#3b73c8;
-  width: 550px;
-  height: 900px;
-  border-radius: 40px;
   text-align: center;
   color: white;
-}
-
-.img-box {
-  padding-top: 100px;
+  margin: auto;
+  
 }
 
 .icon-style {
@@ -131,16 +136,9 @@ font-family: "Spoqa Han Sans";
     width: 250px;
  }
 
- .input-box{
-    width: 150px;
- }
-
  .btn-hover-2 {
     padding: 0;
     font-size: 28px;
  }
- 
- body{
-  height: 100vh;
- }
+
 }
